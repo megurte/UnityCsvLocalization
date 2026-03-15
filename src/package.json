@@ -1,0 +1,23 @@
+{
+  "name": "com.megurte.localization",
+  "version": "1.0.0",
+  "displayName": "Unity CSV Localization",
+  "description": "Lightweight CSV-based localization system for Unity with TextMeshPro support and runtime language switching.",
+  "unity": "2022.3",
+  "author": {
+    "name": "megurt",
+    "url": "https://github.com/megurte"
+  },
+  "keywords": [
+    "unity",
+    "editor",
+    "csv",
+    "localizatio"
+  ],
+  "dependencies": {},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megurte/UnityCsvLocalization.git"
+  }
+}
