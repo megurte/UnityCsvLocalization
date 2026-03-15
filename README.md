@@ -63,12 +63,12 @@ Create a CSV file that contains all localized strings.
 Example structure:
 
 ```csv
-key,EN,FR,JP
+alias,EN,FR,JP
 card_damage,Card has {0} damage,La carte a {0} dégâts,カードは{0}ダメージです
 start_game,Start Game,Démarrer le jeu,ゲーム開始
 ```
 
-- `key` — unique identifier of the text
+- `alias` — unique identifier of the text
 - other columns represent supported languages
 - `{0}`, `{1}`, etc. are placeholders for runtime parameters
 
