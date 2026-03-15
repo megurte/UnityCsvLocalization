@@ -1,4 +1,4 @@
-# UnityLocalization
+# Unity CSV Localization
 
 UnityLocalization is a lightweight localization system for Unity built around a simple concept: alias-based translations stored in a CSV file.
 
