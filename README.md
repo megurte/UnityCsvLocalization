@@ -169,7 +169,15 @@ After calling this method:
 - all cached localized texts update automatically
 
 Language keys must match the CSV column names.
+### Example
 
+```csharp
+button.OnClickAsObservable().Subscribe(_ =>
+{
+    LocalizationProvider.SetLocalizationKey(keyLocal);
+    LocalizationProvider.ForceReload();
+}).AddTo(DisposeOnDestroy);
+```
 ---
 
 ### 5. Get the current language
@@ -191,7 +199,7 @@ public class CardView : MonoBehaviour
 {
     [SerializableField] private TextMeshProUGUI damageText;
 
-    public void SetDamage(int damage)
+    public void UpdateDamageText(int damage)
     {
         damageText.text = LocalizationProvider.Localize("card_damage", damage);
     }
